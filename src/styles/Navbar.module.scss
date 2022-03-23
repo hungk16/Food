@@ -11,15 +11,16 @@
     cursor: pointer;
     transition: color ease 0.3s;
     text-transform: capitalize;
-    &:hover{
+
+    &:hover {
       color: var(--color-text);
     }
-    
+
   }
-  
+
 }
 
-.menu{
+.menu {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -29,7 +30,7 @@
   margin-left: auto;
   padding: 0 4rem;
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     position: fixed;
     flex-direction: column;
     align-items: flex-end;
@@ -42,20 +43,22 @@
     transform: translateX(100%);
     padding: 0;
     transition: transform 200ms ease-in-out;
+
   }
-  li{
+
+  li {
     font-size: 1.1rem;
     font-weight: 500;
     color: whitesmoke;
     cursor: pointer;
     transition: color ease-in-out 300ms;
 
-    &:hover{
-      color: var(--color-btn);
+    &:hover {
+      color: var(--color-bg);
     }
 
-    @media screen and (max-width: 768px){
-      &:first-child{
+    @media screen and (max-width: 768px) {
+      &:first-child {
         margin-top: 2rem;
       }
       padding: 0.5rem 2rem;
@@ -64,14 +67,14 @@
 }
 
 .mobileFaTimes,
-.mobileBars{
+.mobileBars {
   cursor: pointer;
   display: none;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     display: flex;
     align-items: center;
 
-    svg{
+    svg {
       fill: whitesmoke;
       width: 25px;
       height: 25px;
@@ -88,7 +91,7 @@
   border-radius: 50%;
 }
 
-.menuMobileActive{
+.menuMobileActive {
   @media screen and (max-width: 768px) {
     transform: translateX(0);
   }

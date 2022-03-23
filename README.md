@@ -9,7 +9,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Image
 
-![UI](src/assets/ui.png)
+![](src/assets/ui.png)
 
 ## Link demo netlify
 
